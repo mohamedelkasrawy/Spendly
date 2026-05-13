@@ -6,19 +6,19 @@
   "scripts": {
     "dev": "vite",
     "build": "npx vite build",
-    "preview": "vite preview"
+    "preview": "npx vite preview"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.0",
-    "date-fns": "^3.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.21.0"
+    "react-router-dom": "^6.21.0",
+    "date-fns": "^3.0.6",
+    "vite": "^5.0.8",
+    "@vitejs/plugin-react": "^4.2.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0",
-    "@vitejs/plugin-react": "^4.2.1",
-    "vite": "^8.0.12"
+    "@types/react-dom": "^18.2.0"
   }
 }
